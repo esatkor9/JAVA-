@@ -17,6 +17,13 @@ public class yukariPiramit {
             }
             System.out.println();
         }
+        for (int a = n-1; a >= 1; a--){
+            for (int b = n -a; b>= 1;b--)
+                System.out.print(" ");
+            for (int c = 2*a-1; c>= 1 ; c--)
+                System.out.print("*");
+            System.out.println();
+        }
 
 
     }
